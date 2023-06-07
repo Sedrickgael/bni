@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Tunis - Personal Portfolio</title>
+    <title>BNI -  CGB</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Template CSS Files -->
@@ -13,6 +13,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+<!--    <link href="css/carousel.css" rel="stylesheet">-->
 
     <!-- CSS Skin File -->
     <link href="css/skins/green.css" rel="stylesheet">
@@ -21,50 +22,45 @@
     <script src="js/modernizr.custom.js"></script>
 </head>
 
-<body class="home light">
-<!-- Header Starts -->
-<header class="header" id="navbar-collapse-toggle">
-    <!-- Fixed Navigation Starts -->
-    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
-        <li>
-            <a class="icon-box active" href="index.html">
-            <i class="fa fa-home"></i>
-            </a>
-        </li>
-    </ul>
-    <!-- Fixed Navigation Ends -->
-    <!-- Mobile Menu Starts -->
-    <nav role="navigation" class="d-block d-lg-none">
-        <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul class="list-unstyled" id="menu">
-                <li class="active"><a href="index.html"><i class="fa fa-home"></i><span>Accueil</span></a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Mobile Menu Ends -->
-</header>
-<!-- Header Ends -->
-<!-- Main Content Starts -->
-<section class="container-fluid main-container container-home p-5 revealator-slideup revealator-once revealator-delay1">
-    <div class="color-block d-none d-lg-block"></div>
-    <a href="">
+<body class="hm-gradient">
 
-    </a>
-    <div class="row home-details-container align-items-center">
-        <div class="col-12 col-lg-8 offset-lg-4 home-details pb-1 text-left text-sm-center text-lg-left">
-            <a href="client.html">
-                <img src="img/light.jpg" class="img-fluid position-fixed bg" alt="my picture" />
-                <h1 class="text-uppercase poppins-font">Conditions Générales</h1>
-            </a>
+<main>
 
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="home.html">
+                <img class="d-block w-100" src="img/01.jpg" alt="First slide">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="home.html">
+                <img class="d-block w-100" src="img/FvrsllvWIAAxzK-.jpg" alt="Second slide">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="home.html">
+                    <img class="d-block w-100" src="img/07.jpg" alt="Third slide">
+                </a>
+            </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-</section>
-<!-- Main Content Ends -->
+
+</main>
+
 
 <!-- Template JS Files -->
 <script src="js/jquery-3.5.0.min.js"></script>

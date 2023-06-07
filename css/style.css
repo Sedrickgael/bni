@@ -49,6 +49,7 @@ html {
 }
 
 body {
+
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: #fff;
@@ -57,9 +58,12 @@ body {
   position: relative;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100%;
   width: 100%;
   background-color: #111;
+  background-image: url('../img/carousel.png');
 }
 
 .poppins-font {
@@ -1787,4 +1791,50 @@ text-decoration: none!important;
 
 .justify-center {
 justify-content:center;
+}
+
+#messagebox{
+  background-color: lightgray;
+  border: solid 1px #cecece;
+  min-height: 100px;
+  color: #4B515D;
+}
+
+#messagebox.success{
+  border: solid 1px #00C851;
+  border-left: solid 4px #00C851;
+}
+
+#messagebox.fail{
+  border: solid 1px #ff4444;
+  border-left: solid 4px #ff4444;
+}
+
+#messagebox.warning {
+  border: solid 1px #ffbb33;
+  border-left: solid 4px #ffbb33;
+}
+
+#messagebox.info {
+  border: solid 1px #4f8aff;
+  border-left: solid 4px #4f8aff;
+}
+
+#messagebox-icon{
+  padding: 1em;
+}
+
+#messagebox-detail-link{
+  margin-left: 1em;
+  margin-right: 1em;
+  position: relative;
+  right: 0;
+}
+
+#messagebox-header{
+  padding-left: 0.6em;
+}
+
+#expanded-status{
+  border: solid 1px black;
 }

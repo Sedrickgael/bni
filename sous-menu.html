@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -49,8 +49,13 @@
             </a>
         </li>
         <li>
-            <a class="icon-box active" href="client.html">
+            <a class="icon-box" href="client.html">
                 <i class="fa fa-user"></i>
+            </a>
+        </li>
+        <li>
+            <a class="icon-box active" href="menu.html">
+                <i class="fa fa-list"></i>
             </a>
         </li>
     </ul>
@@ -63,8 +68,9 @@
             <span></span>
             <span></span>
             <ul class="list-unstyled" id="menu">
-                <li ><a href="home.html"><i class="fa fa-home"></i><span>Accueil</span></a></li>
-                <li class="active"><a href="client.html"><i class="fa fa-user"></i><span>Client</span></a></li>
+                <li><a href="home.html"><i class="fa fa-home"></i><span>Accueil</span></a></li>
+                <li><a href="client.html"><i class="fa fa-user"></i><span>Clients</span></a></li>
+                <li class="active"><a href="menu.html"><i class="fa fa-list"></i><span>Menu</span></a></li>
             </ul>
         </div>
     </nav>
@@ -72,41 +78,46 @@
 </header>
 <!-- Header Ends -->
 <!-- Main Content Starts -->
-<section class="container-fluid main-container container-home p-5 revealator-slideup revealator-once revealator-delay1">
+<section class="container-fluid main-container container-home p-4 revealator-slideup revealator-once revealator-delay1">
     <div class="container">
-        <div class="row justify-center">
-            <!-- Article Starts -->
-            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
-                <article class="post-container">
-                    <div class="post-thumb">
-                        <a href="menu.html" class="d-block shadow-lg position-relative overflow-hidden">
-                            <img src="img/part.jpeg" class="img-fluid" alt="Blog Post">
-                        </a>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 success" id="messagebox" >
+                <div class="row">
+                    <div class="col-md-2" id="messagebox-icon">
+                        <span class="fa fa-2x fa-check text-success"></span>
                     </div>
-                    <div class="post-content p-3">
-                        <div class="entry-header text-center">
-                            <h2 class="shadow-lg text-uppercase poppins-font font-weight-bold"><a href="menu.html">Particulier</a></h2>
+                    <div class="col-md-10">
+                        <div class="row h5" id="messagebox-header">1 - CONDITIONS GENERALES DU COMPTE</div>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <span class="fa fa-check-circle text-success"></span>
+                            </div>
+                            <div class="col-md-10">
+                                <a href="details.html">1-1 Conditions d'ouverture de compte</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <span class="fa fa-check-circle text-success"></span>
+                            </div>
+                            <div class="col-md-10">
+                                1-2 Conditions de Clôture de compte
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <span class="fa fa-check-circle text-success"></span>
+                            </div>
+                            <div class="col-md-10">
+                                1-3 Conditions de réouverture de compte
+                            </div>
                         </div>
                     </div>
-                </article>
+                </div>
+                
             </div>
-            <!-- Article Ends -->
-            <!-- Article Starts -->
-            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
-                <article class="post-container">
-                    <div class="post-thumb">
-                        <a href="menu-pro.html" class="d-block shadow-lg position-relative overflow-hidden">
-                            <img src="img/application_autoliquidation_tva-min.jpg" class="img-fluid" alt="">
-                        </a>
-                    </div>
-                    <div class="post-content p-3">
-                        <div class="entry-header text-center">
-                            <h2 class="shadow-lg text-uppercase poppins-font font-weight-bold"><a href="menu-pro.html">Professionnel</a></h2>
-                        </div>
-                    </div>
-                </article>
-            </div>
-            <!-- Article Ends -->
+            <div class="col-md-4"></div>
         </div>
     </div>
 </section>
